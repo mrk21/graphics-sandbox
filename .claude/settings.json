@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmake --build .)",
+      "Bash(cmake --build:*)",
+      "Bash(cmake --version)",
+      "Bash(x86_64-w64-mingw32-g++:*)",
+      "Bash(x86_64-w64-mingw32-gcc:*)",
+      "Bash(apt-cache search:*)",
+      "Bash(apt-cache policy:*)",
+      "Bash(pip3 show:*)",
+      "Bash(dpkg -l)",
+      "Bash(find *)",
+      "Bash(grep *)"
+    ]
+  }
+}
